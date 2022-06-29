@@ -21,4 +21,3 @@ images: build/hilbert_targa build/hilbert_unifont build/linear_unifont
 
 clean:
 	rm -rf build/
-
