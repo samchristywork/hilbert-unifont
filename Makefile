@@ -4,17 +4,17 @@ INCLUDES := -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux
 
 all: build/hilbert_targa build/hilbert_unifont build/linear_unifont
 
-build/hilbert_targa: hilbert_targa.c
+build/hilbert_targa: src/hilbert_targa.c
 	mkdir -p build/
-	${CC} ${INCLUDES} hilbert_targa.c -o $@ ${LIBS}
+	${CC} ${INCLUDES} src/hilbert_targa.c -o $@ ${LIBS}
 
-build/hilbert_unifont: hilbert_unifont.c
+build/hilbert_unifont: src/hilbert_unifont.c
 	mkdir -p build/
-	${CC} ${INCLUDES} hilbert_unifont.c -o $@ ${LIBS}
+	${CC} ${INCLUDES} src/hilbert_unifont.c -o $@ ${LIBS}
 
-build/linear_unifont: linear_unifont.c
+build/linear_unifont: src/linear_unifont.c
 	mkdir -p build/
-	${CC} ${INCLUDES} linear_unifont.c -o $@ ${LIBS}
+	${CC} ${INCLUDES} src/linear_unifont.c -o $@ ${LIBS}
 
 images: build/hilbert_targa build/hilbert_unifont build/linear_unifont
 	cd build/ && ./hilbert_targa && ./hilbert_unifont && ./linear_unifont
