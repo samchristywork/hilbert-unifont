@@ -113,7 +113,7 @@ int main() {
 
       unsigned len = convert(utf8, code + offset * 0x100);
       if (len == 0) {
-        fprintf(stderr, "Decode failure.\n");
+        // fprintf(stderr, "Decode failure.\n");
       } else {
         char buf[5] = {0};
         memcpy(buf, utf8, len);
