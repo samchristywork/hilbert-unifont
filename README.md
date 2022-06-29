@@ -39,6 +39,18 @@ are divided on powers of two as Unicode's Plane 0 is.
 
 ![Unifont arranged on the Hilbert Curve](https://github.com/samchristywork/hilbert-unifont/blob/main/examples/hilbert_unifont.png)
 
+## Credits
+
+Information about the Hilbert Curve, including the algorithm for translating
+between one- and two-dimensional representations of the curve were found in the
+![Wikipedia article for the Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve).
+
+Code that was used for cycling through UTF codepoints was based on
+![this Stack Overflow post](https://stackoverflow.com/questions/38491380/how-to-print-unicode-codepoints-as-characters-in-c).
+
+Code for converting between RGB and HSV representations of color was based on
+![this file on GitHub](https://github.com/Inseckto/HSV-to-RGB/blob/master/HSV2RGB.c).
+
 ## License
 
 This work is licensed under the GNU General Public License version 3 (GPLv3).
