@@ -1,6 +1,6 @@
 CC := gcc
 LIBS := -lm -lcairo
-CFLAGS := -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+CFLAGS := $(shell pkg-config --cflags cairo)
 
 all: build/hilbert_targa build/hilbert_unifont build/linear_unifont
 
