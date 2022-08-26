@@ -79,7 +79,7 @@ In this view, we can see that the Traditional approach does fairly well, but is
 beaten by the Hilbert approach near the center, while the Hilbert approach has
 its own issues near the X=3000 and X=14000 regions.
 
-The code to gather this data can be found in TODO.
+The code to gather this data can be found in the `locality_test` directory.
 
 ## Reconstructing the Canonical Font Visualization
 
@@ -109,10 +109,7 @@ the code below.
 As we can see from the visualization, there are a lot of striations in the data,
 like grains in a block of wood. This is generally a decent representation of the
 data because it is easy to derive the codepoint of each symbol from the position
-it occupies on the grid. In the next section, we will modify this visualization
-to map onto the Hilbert curve instead.
-
-<a href="./res/canonical_unifont.png"><div><img alt="Rendered Font Visualization" style="width:250px" src="./res/canonical_unifont_small.png"></div></a>
+it occupies on the grid.
 
 ## Dependencies
 
