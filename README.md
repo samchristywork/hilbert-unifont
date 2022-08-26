@@ -1,6 +1,6 @@
 ![Banner](https://s-christy.com/status-banner-service/hilbert-unifont/banner-slim.svg)
 
-![The Hilbert Curve](https://github.com/samchristywork/hilbert-unifont/blob/main/examples/hilbert_curve.png)
+![Unifont arranged on the Hilbert Curve](https://github.com/samchristywork/hilbert-unifont/blob/main/examples/hilbert_unifont.png)
 
 ## Overview
 
