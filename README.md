@@ -1,5 +1,7 @@
 ![Banner](https://s-christy.com/status-banner-service/hilbert-unifont/banner-slim.svg)
 
+![The Hilbert Curve](https://github.com/samchristywork/hilbert-unifont/blob/main/examples/hilbert_curve.png)
+
 ## Overview
 
 Unicode is divided into seventeen planes. The first of these planes is plane 0,
