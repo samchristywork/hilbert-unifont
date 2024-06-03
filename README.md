@@ -1,4 +1,4 @@
-![Banner](https://s-christy.com/status-banner-service/hilbert-unifont/banner-slim.svg)
+![Banner](https://s-christy.com/sbs/status-banner.svg?icon=action/abc&hue=0&title=Hilbert%20Unifont&description=This%20sure%20is%20a%20way%20to%20view%20font%20files)
 
 ![Unifont arranged on the Hilbert Curve](https://github.com/samchristywork/hilbert-unifont/blob/main/examples/hilbert_unifont.png)
 
