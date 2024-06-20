@@ -119,6 +119,7 @@ it occupies on the grid.
 gcc
 libcairo2-dev
 make
+unifont
 ```
 
 ## Examples
